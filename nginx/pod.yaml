@@ -6,7 +6,7 @@ metadata:
     run: busybox
   name: busybox
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       run: busybox
